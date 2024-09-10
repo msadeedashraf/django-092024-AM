@@ -54,3 +54,9 @@ start the env
 
 >py .\manage.py startapp posts
 
+### Create a django app
+![Step 1](/Assets/create-new-project-step1.png)
+![Step 2](/Assets/create-new-project-step2.png)
+![Step 3](/Assets/create-new-project-step3.png)
+![Step 4](/Assets/create-new-project-step4.png)
+
