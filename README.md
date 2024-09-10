@@ -43,6 +43,14 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.homepage),
     path("about/", views.about),
-]
 
+![Emmit Include Languages](Assets/emmit.png)
+
+### App and Templates
+
+start the env
+
+>cd helloworld
+
+>py .\manage.py startapp posts
 

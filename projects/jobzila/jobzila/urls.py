@@ -1,5 +1,5 @@
 """
-URL configuration for helloworld project.
+URL configuration for jobzila project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -22,6 +22,9 @@ from . import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.homepage),
-    path("about/", views.about),
-    path("posts/", include("posts.urls")),
+    path("joblisting/", views.joblisting),
+    path("jobsearch/", views.jobsearch),
+    path("privacy/", views.privacy),
+    path("terms/", views.terms),
+    path("contactus/", views.contactus),
 ]
