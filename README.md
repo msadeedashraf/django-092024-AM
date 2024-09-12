@@ -60,3 +60,28 @@ start the env
 ![Step 3](/Assets/create-new-project-step3.png)
 ![Step 4](/Assets/create-new-project-step4.png)
 
+
+
+>py .\manage.py migrate
+>py .\manage.py makemigrations
+
+>py .\manage.py shell 
+
+>>> from posts.models import Post
+>>> p = Post()
+>>> p
+>>> p.title = "My First post"
+>>> p.save()
+
+>>> Post.objects.all()
+>>> Post.objects.all().values()
+
+
+now test admin 
+http://127.0.0.1:8005/admin/login/?next=/admin/
+
+
+to create a super user
+
+>py .\manage.py createsuperuser
+
