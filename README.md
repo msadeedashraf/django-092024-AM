@@ -85,3 +85,7 @@ to create a super user
 
 >py .\manage.py createsuperuser
 
+jobzila
+Pa55w.rd
+
+
