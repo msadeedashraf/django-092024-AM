@@ -3,6 +3,7 @@
 
 {% block content %}
   <section>
+    <img class='postimage'  src="{{post.banner.url}}" alt="{{ post.title }}">
     <h1>{{ post.title }}</h1>
     <p>{{ post.date }}</p>
     <p>{{ post.body }}</p>

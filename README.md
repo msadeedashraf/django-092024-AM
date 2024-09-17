@@ -89,3 +89,5 @@ jobzila
 Pa55w.rd
 
 
+py -m pip install Pillow
+
