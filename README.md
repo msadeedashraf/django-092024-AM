@@ -91,3 +91,10 @@ Pa55w.rd
 
 py -m pip install Pillow
 
+To rollback the database to the last script
+py .\manage.py migrate <app name> zero
+
+py .\manage.py migrate posts zero
+py .\manage.py migrate
+
+
