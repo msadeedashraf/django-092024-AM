@@ -98,3 +98,14 @@ py .\manage.py migrate posts zero
 py .\manage.py migrate
 
 
+### Final Project
+
+Syed and Charline
+[Marketplace](https://www.freecodecamp.org/news/learn-django-by-building-a-marketplace/)
+
+
+Fatima
+[CRM](https://www.youtube.com/watch?v=t10QcFx7d5k&ab_channel=freeCodeCamp.org)
+
+Slah
+[E-Commerce]()
