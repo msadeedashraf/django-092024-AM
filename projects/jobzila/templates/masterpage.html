@@ -22,6 +22,18 @@
           <li><a href="/privacy">Privacy Policy</a></li>
           <li><a href="/contactus">Contact Us</a></li>
           <li><a href="{% url 'blogs:bloglist'%}">Blogs</a></li>
+          <li><a href="{% url 'users:register'%}">Register</a></li>
+          <li><a href="{% url 'users:login'%}">Login</a></li>
+          <form method="POST" class="logout" action="{% url 'users:logout' %}">
+            {% csrf_token %}
+              <button class="logout-button" >Logout</button>
+            </form>
+          
+
+          
+          
+          
+          
         </ul>
       </nav>
     </header>
