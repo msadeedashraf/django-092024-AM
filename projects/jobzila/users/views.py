@@ -25,7 +25,6 @@ def login_view(request):
                 return redirect(request.POST.get("next"))
             else:
                 return redirect("blogs:bloglist")
-
     else:
         form = AuthenticationForm()
 
