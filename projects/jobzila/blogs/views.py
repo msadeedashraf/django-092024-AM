@@ -28,7 +28,6 @@ def blog_new(request):
             newpost.save()
             return redirect("blogs:bloglist")
 
-        # Some code
     else:
         form = forms.CreateBlog()
     return render(request, "blog_new.html", {"form": form})

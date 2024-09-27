@@ -13,7 +13,7 @@
             </div>
             
             <p>{{ blog.body }}</p>
-            <p><strong>{{blog.author}}</strong> on {{ blog.date }}</p>
+            <p>{{ blog.date }}  by <strong>{{blog.author}}</strong></p>
             <p class="learn-more"><a href="{%url 'blogs:bloglist'%}">Back</a></p>  
         </div>
 

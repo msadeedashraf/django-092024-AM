@@ -97,6 +97,13 @@ py .\manage.py migrate <app name> zero
 py .\manage.py migrate posts zero
 py .\manage.py migrate
 
+
+delete the db.sqlite3 file
+py .\manage.py makemigration
+py .\manage.py migrate
+
+py .\manage.py createsuperuser
+
 ### SQL Lite browser
 
 [SQL Lite](https://sqlitebrowser.org/dl/)
