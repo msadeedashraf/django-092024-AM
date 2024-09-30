@@ -10,7 +10,7 @@ class Job(models.Model):
     salaryrange = models.CharField(max_length=200)
     jobtype = models.CharField(max_length=100)
     description = models.TextField()
-    status = models.BooleanField()
+    status = models.BooleanField(default=True)
     applylink = models.URLField()
     postdate = models.DateTimeField(auto_now_add=True)
     expirydate = models.DateTimeField(auto_now_add=True)
