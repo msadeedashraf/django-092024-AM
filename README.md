@@ -150,3 +150,9 @@ python manage.py createsuperuser
 
 username:sadeed
 
+
+
+### To test APIs
+
+[Swagger](https://swagger.io/)
+[Postman](https://www.postman.com/)
