@@ -118,3 +118,35 @@ Syed and Charline
 
 Fatima, Slah
 [CRM](https://www.youtube.com/watch?v=t10QcFx7d5k&ab_channel=freeCodeCamp.org)
+
+
+### Django Rest API
+
+
+>py -m venv .venv 
+>.\.venv\Scripts\activate   
+>pip install django djangorestframework
+>djanjo-admin startproject newapiproject
+> cd newapiproject
+> py .\manage.py startapp sample_api 
+> newapiproject/settings.py
+
+INSTALLED_APPS = [  
+    'django.contrib.admin',  
+    'django.contrib.auth',  
+    'django.contrib.contenttypes',  
+    'django.contrib.sessions',  
+    'django.contrib.messages',  
+    'django.contrib.staticfiles',  
+    'rest_framework',  
+    'sample_api',  
+] 
+
+
+# to initialize the database   
+python manage.py migrate   
+# to open the prompt  
+python manage.py createsuperuser  
+
+username:sadeed
+
